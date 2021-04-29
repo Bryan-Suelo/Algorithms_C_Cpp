@@ -11,7 +11,7 @@ void Create(struct Node *ptr, int A[], int n)
 {
     struct Node *newl, *last;
 
-    newl = (struct Node *)malloc(sizeof(struct Node));
+    //ptr = (struct Node *)malloc(sizeof(struct Node));
     ptr->data = A[0];
     ptr->next = NULL;
     last = ptr;
