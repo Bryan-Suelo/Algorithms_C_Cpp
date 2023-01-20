@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 
+/* 
+    Display grades for student marks
+*/
 void display_grades(int m1, int m2, int m3){
     int total;
     float avg;
